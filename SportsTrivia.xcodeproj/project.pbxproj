@@ -15,6 +15,7 @@
 		2214FD2C1CB2B65100EA8637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2214FD2A1CB2B65100EA8637 /* LaunchScreen.storyboard */; };
 		2214FD371CB2B65100EA8637 /* SportsTriviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214FD361CB2B65100EA8637 /* SportsTriviaTests.m */; };
 		2214FD421CB2B65100EA8637 /* SportsTriviaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214FD411CB2B65100EA8637 /* SportsTriviaUITests.m */; };
+		2214FD511CB2CAB400EA8637 /* Trivia.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214FD501CB2CAB400EA8637 /* Trivia.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2214FD3D1CB2B65100EA8637 /* SportsTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2214FD411CB2B65100EA8637 /* SportsTriviaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsTriviaUITests.m; sourceTree = "<group>"; };
 		2214FD431CB2B65100EA8637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2214FD4F1CB2CAB400EA8637 /* Trivia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trivia.h; sourceTree = "<group>"; };
+		2214FD501CB2CAB400EA8637 /* Trivia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trivia.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2214FD201CB2B65100EA8637 /* AppDelegate.m */,
 				2214FD221CB2B65100EA8637 /* ViewController.h */,
 				2214FD231CB2B65100EA8637 /* ViewController.m */,
+				2214FD4F1CB2CAB400EA8637 /* Trivia.h */,
+				2214FD501CB2CAB400EA8637 /* Trivia.m */,
 				2214FD251CB2B65100EA8637 /* Main.storyboard */,
 				2214FD281CB2B65100EA8637 /* Assets.xcassets */,
 				2214FD2A1CB2B65100EA8637 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				2214FD241CB2B65100EA8637 /* ViewController.m in Sources */,
 				2214FD211CB2B65100EA8637 /* AppDelegate.m in Sources */,
+				2214FD511CB2CAB400EA8637 /* Trivia.m in Sources */,
 				2214FD1E1CB2B65100EA8637 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
